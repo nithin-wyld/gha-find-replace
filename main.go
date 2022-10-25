@@ -130,5 +130,5 @@ func main() {
 		}
 	}
 
-	fmt.Println(fmt.Sprintf(`::set-output name=modifiedFiles::%d`, modifiedCount))
+	//fmt.Println(fmt.Sprintf( echo `modifiedFiles`=modifiedCount >> $GITHUB_OUTPUT))
 }
